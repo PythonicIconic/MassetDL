@@ -7,6 +7,9 @@ Open command prompt, `cd` to the directory you wish to save the various assets t
 456
 789
 ```
-Then simply type `massetdl`!
+Then simply type `massetdl -file`!
+
+If you would like to have the program scrape everything for you (it just starts at ID 1000000 and increments) then type `massetdl -scrape`.
+If you would like to scrape for a certain type, add a filter: `massetdl -scrape -filter shirts`.
 # Note
 Does not require you to specify the asset's type as it will find it on its own.
